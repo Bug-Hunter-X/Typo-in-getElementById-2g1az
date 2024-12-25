@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <script>
+    //This is an example of an uncommon error.  This is very simple but can be difficult to find sometimes.
+    //The error is in the way the document is referenced
+    document.getElementByid('paragraph').innerHTML = 'This paragraph has been changed.';
+  </script>
+</body>
+</html>
