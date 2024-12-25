@@ -1,0 +1,1 @@
+This repository contains an example of a common yet easily missed error in HTML/Javascript. The bug lies in a typo within the Javascript that attempts to manipulate the DOM.  The solution file provides the corrected code. This example highlights the importance of careful attention to detail when working with the Document Object Model (DOM).
